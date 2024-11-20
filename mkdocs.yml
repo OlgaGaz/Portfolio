@@ -1,15 +1,38 @@
-site_name: Portfolio
+# Project information
+site_name: Portfolio 
 site_url: https://github.com/OlgaGaz/Portfolio.git
+site_author: Olga Gazizova
+
+# Copyright
+copyright: Copyright &copy; 2024 Olga Gazizova
+
+# Configuration
 theme:
   name: material
   palette:
     primary: black
     features:
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.path
-site_author: Olga Gazizova
-extra:
-  version:
-    provider: mike
+      - navigation.tabs
+      - navigation.top
+      - navigation.tabs.sticky
+      - navigation.sections
+      - navigation.expand
+      - navigation.path
+
+  font:
+    text: Inter
+  favicon: assets/favicon.png
+  icon:
+    logo: logo
+
+
+#extra:
+  #version:
+    #provider: mike
+
+# Page tree
+nav:
+  - Home: index.md
+  - Case:
+    - 01: 01-case.md
+    - 02: 02-case.md    
