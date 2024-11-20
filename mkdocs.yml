@@ -1,5 +1,5 @@
-site_name: Требования КриптоАРМ
-site_url: https://OlgaGaz.github.io/mkdocs-test/
+site_name: Portfolio
+site_url: https://github.com/OlgaGaz/Portfolio.git
 theme:
   name: material
   palette:
