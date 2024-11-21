@@ -40,9 +40,9 @@ theme:
     # - content.footnote.tooltips
     # - content.tabs.link
     - content.tooltips
-    # - header.autohide
+    - header.autohide
     # - navigation.expand
-    - navigation.footer
+    # - navigation.footer
     - navigation.indexes
     # - navigation.instant
     # - navigation.instant.prefetch
@@ -125,6 +125,6 @@ markdown_extensions:
 # Page tree
 nav:
   - Обо мне: index.md
-  - Кейсы:
+  - Портфолио:
     - Интерфейс для системы контроля доступа и видеонаблюдения: 01-case.md
-    - кейс 2: 02-case.md    
+    #- кейс 2: 02-case.md    
